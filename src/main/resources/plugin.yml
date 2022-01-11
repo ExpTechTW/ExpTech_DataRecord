@@ -1,0 +1,10 @@
+name: ExpTech_DataRecord
+version: 22w03-pre1
+author: whes1015
+main: main.main
+
+commands:
+  dr:
+    description: 控制 ExpTech_DataRecord 插件
+    usage: /dr <args>
+    permission: exptech.admin
