@@ -19,7 +19,8 @@
 </p>
 
 # 項目概要
-* 這是一個模板
+- 此插件依賴 [ExpTech_Core](https://github.com/ExpTechTW/ExpTech_Core)
+* 這是一個用於記錄伺服器內各項數據並視覺化的 插件
 
 # 貢獻者
  - 程式開發
