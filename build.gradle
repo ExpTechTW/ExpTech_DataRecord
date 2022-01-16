@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'org.exptech'
-version '22w03-pre1'
+version '22w03'
 
 repositories {
     maven {
