@@ -39,6 +39,8 @@ public class main extends JavaPlugin implements Listener {
     @Override
     public void onDisable(){
         DataUpdate();
+        timer.timer.cancel();
+        logger.log("INFO", "DataRecord_timer", "Timer Cancel");
         logger.log("INFO","DataRecord_onDisable","Closing! Version: "+getDescription().getVersion());
     }
 }
