@@ -1,7 +1,8 @@
 name: ExpTech_DataRecord
-version: 2.0
+version: 2.2
 author: whes1015
 main: main.main
+api-version: 1.18
 
 commands:
   dr:
