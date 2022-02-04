@@ -9,6 +9,8 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
+import org.bukkit.event.player.PlayerQuitEvent;
+import org.bukkit.event.player.PlayerRespawnEvent;
 import org.bukkit.event.player.PlayerStatisticIncrementEvent;
 
 import static function.dataupdate.DataUpdate;
@@ -22,7 +24,12 @@ public class eventlistener implements Listener {
     }
 
     @EventHandler
-    public void PlayerStatisticIncrementEvent(PlayerStatisticIncrementEvent event) {
+    public void PlayerRespawnEvent(PlayerRespawnEvent event) {
+        DataUpdate(event.getPlayer(), main(event.getPlayer()));
+    }
+
+    @EventHandler
+    public void PlayerQuitEvent(PlayerQuitEvent event) {
         DataUpdate(event.getPlayer(), main(event.getPlayer()));
     }
 
