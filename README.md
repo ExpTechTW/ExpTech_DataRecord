@@ -18,6 +18,9 @@
   </p>
 </p>
 
+# ⚠️ 停止支援
+- API 服務器 已不再為此項目提供服務
+
 # 項目概要
 - 此插件依賴 [ExpTech_Core](https://github.com/ExpTechTW/ExpTech_Core)
 * 這是一個用於記錄伺服器內各項數據並視覺化的 插件
